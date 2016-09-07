@@ -1,1 +1,4 @@
 *.docx
+/WerewolfGame/.vs/WerewolfGame/v14
+/WerewolfGame/WerewolfGame/bin
+/WerewolfGame/WerewolfGame/obj/Debug
