@@ -7,7 +7,7 @@
     <ProjectGuid>ff449e31-f80f-439e-9963-5b71a7bae792</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
-    <StartupFile>Helloworld.py</StartupFile>
+    <StartupFile>werewolvesGame.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,7 +26,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Helloworld.py">
+    <Compile Include="fetch_urls_demo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="werewolvesGame.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
