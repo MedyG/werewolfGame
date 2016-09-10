@@ -4,7 +4,7 @@ import tornado.web
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
         #self.write("Hello, world")
-        self.render("index.html", list_info = {11, 22, 33})
+        self.render("index.html", list_info = [11, 22, 33])
 
 def make_app():
     return tornado.web.Application([
