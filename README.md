@@ -2,7 +2,7 @@
 ##### created by medyg
 
 ## 开发环境
-* python3.5.2 + Tornado
+* [python3.5.2](https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe) + [Tornado](http://www.tornadoweb.org/en/stable/)
 
 ## 本地运行
 1. 使用visual studio打开WerewolfGame.sln或终端运行指令`python werewolvesGame.py`  
