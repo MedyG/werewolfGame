@@ -9,6 +9,6 @@
 from handler.index import MainHandler
 
 url=[
-    (r'/', MainHandler),
+    (r'/', MainHandler),                    # handle index.html
 
     ]
