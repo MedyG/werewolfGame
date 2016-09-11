@@ -29,7 +29,13 @@
     <Compile Include="Actor.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="fetch_urls_demo.py">
+    <Compile Include="application.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="handler\index.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="url.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="werewolvesGame.py">
@@ -37,6 +43,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="handler\" />
+    <Folder Include="optsql\" />
     <Folder Include="static\" />
     <Folder Include="views\" />
     <Folder Include="static\images\" />
