@@ -1,17 +1,40 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>WerewolfGame</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"  />
+    <title>凹仔集中营</title>
+    <link type="image/x-icon" rel="shortcut icon" href="images/wolf-logo.ico" />
+    <link rel="stylesheet" href="style/login/login.css" />
 </head>
 <body>
-    <div>
-        <ul>
-            {% for item in list_info %}
-                <li>{{ item }}</li>
-            {% end %}
-        </ul>
-    </div>
+<!--<div>
+<ul>
+    {% for item in list_info %}
+        <li>{{ item }}</li>
+    {% end %}
+</ul>
+</div>-->
+	<div class="outer-wrap">
+		<div class="loginWrap">
+			<div class="login-logo"></div>
+			<ul>
+				<li>
+					<i class="fn-icon login-user-icon"></i>
+					<input id="account" type="text" placeholder="输入账号" tabindex="1">
+				</li>
+				<li>
+					<i class="fn-icon login-user-icon"></i>
+					<input id="password" type="password" placeholder="输入密码" tabindex="2">
+				</li>
+			</ul>
+			<div class="loginbtn" tabindex="3">
+				<input type="submit" value="登&nbsp;&nbsp;录" class="loginbtnInput" data-event="click" data-handler="dealLogin"/>
+			</div>
+		</div>
+	</div>
+	<footer>CopyRights© 2016 WolfKill Power By MedyG, Kb, xc Leung</footer>
+	<script type="text/javascript" src="libs/require/require.js"  data-main="require-config.js"></script>
 </body>
 </html>
