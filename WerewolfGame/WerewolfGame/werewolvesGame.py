@@ -1,5 +1,11 @@
+#!/usr/bin/python
+# -*- coding: utf8 -*-
+
+import Actor
+
 import tornado.ioloop
 import tornado.web
+import os
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
@@ -14,9 +20,11 @@ def make_app():
 ''' settings
 '''
 settings = {
-    "template_path" : "views",            # htmlÎÄ¼ş
-    "static_path": "static",              # ¾²Ì¬ÎÄ¼şÂ·¾¶£¨css£¬js£¬img£©
-    "static_url_prefix" : "/static/",     # ¾²Ì¬ÎÄ¼şÇ°×º
+    "debug" : True,
+    "template_path" :"views" ,            # htmlæ–‡ä»¶
+    "static_path": "static" ,              # é™æ€æ–‡ä»¶è·¯å¾„ï¼ˆcssï¼Œjsï¼Œimgï¼‰
+    "static_url_prefix" : "/static/",     # é™æ€æ–‡ä»¶å‰ç¼€
+    "login_url" : "/login"
 }
 
 if __name__ == "__main__":

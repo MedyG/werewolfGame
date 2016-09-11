@@ -26,6 +26,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Actor.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="fetch_urls_demo.py">
       <SubType>Code</SubType>
     </Compile>
@@ -34,10 +37,30 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="static\" />
     <Folder Include="views\" />
+    <Folder Include="static\images\" />
+    <Folder Include="static\libs\" />
+    <Folder Include="static\libs\jquery\" />
+    <Folder Include="static\libs\require\" />
+    <Folder Include="static\style\" />
+    <Folder Include="static\style\login\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="views\.project" />
+    <Content Include="static\images\bianping1.png" />
+    <Content Include="static\images\wolf-logo.ico" />
+    <Content Include="static\images\wolfkill-bg.jpg" />
     <Content Include="views\index.html" />
+    <Content Include="static\libs\jquery\jquery-1.10.2.min.js" />
+    <Content Include="static\libs\require\css.js" />
+    <Content Include="static\libs\require\domReady.js" />
+    <Content Include="static\libs\require\require.js" />
+    <Content Include="static\libs\require\text.js" />
+    <Content Include="static\main.js" />
+    <Content Include="static\require-config.js" />
+    <Content Include="static\style\login\login.css" />
+    <Content Include="static\style\login\reset.css" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 

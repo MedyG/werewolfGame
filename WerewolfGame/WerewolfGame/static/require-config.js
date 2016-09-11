@@ -4,6 +4,6 @@ require.config({
 		"domReady": "libs/require/domReady"
 	},
 	deps: [
-        "main.js"
+        "static/main.js"
     ]
 });

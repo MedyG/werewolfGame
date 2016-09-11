@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"  />
     <title>凹仔集中营</title>
     <link type="image/x-icon" rel="shortcut icon" href="images/wolf-logo.ico" />
-    <link rel="stylesheet" href="style/login/login.css" />
+    <link rel="stylesheet" href= {{static_url("style/login/login.css")}} />
 </head>
 <body>
 <!--<div>
@@ -35,6 +35,6 @@
 		</div>
 	</div>
 	<footer>CopyRights© 2016 WolfKill Power By MedyG, Kb, xc Leung</footer>
-	<script type="text/javascript" src="libs/require/require.js"  data-main="require-config.js"></script>
+	<script type="text/javascript" src="{{static_url("libs/require/require.js")}}"  data-main="{{static_url("require-config.js")}}"></script>
 </body>
 </html>
