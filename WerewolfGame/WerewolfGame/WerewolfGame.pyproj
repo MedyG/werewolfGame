@@ -47,6 +47,9 @@
     <Compile Include="handler\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="optsql\dbconn.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="url.py">
       <SubType>Code</SubType>
     </Compile>
