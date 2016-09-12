@@ -7,17 +7,19 @@ require(["jquery"],function($){
 	EventHandler = {
 		"dealLogin":function(){
 			var params = {
-				"account":$("#account").val(),
+				"username":$("#account").val(),
 				"password":$("#password").val()
 			};
 			console.log(params);
-			$.ajax({
+		    $.ajax({
+                cache:false,
 				type:"post",
-				url:"www.baidu.com",
+				url:"/login",
 				async:true,
 				data:params,
 				success:function(res){
-					console.log("ajax success")
+				    console.log("ajax success")
+                    window.location = "/"
 				},
 				error:function(res){
 					console.log("error:"+res.code)

@@ -2,13 +2,11 @@
 #coding:utf-8
 
 import tornado.web
+from handler.basehandler import BaseHandler
 
-#import sys
-#from imp import reload
-#reload(sys)
-#sys.setdefaultencoding('utf-8') 
-
-class MainHandler(tornado.web.RequestHandler):
+class MainHandler(BaseHandler):
+    """ 渲染index.html """
+    @tornado.web.authenticated
     def get(self):
         #self.write("Hello, world")
-        self.render("index.html", list_info = [11, 22, 33])
+        self.render("index.html", user=self.current_user)

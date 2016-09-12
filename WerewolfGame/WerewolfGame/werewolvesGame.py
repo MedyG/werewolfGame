@@ -1,19 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf8 -*-
 
-import Actor
+from Actor import Actor
 import application
 
 import tornado.ioloop
-
-#import sys
-#from imp import reload
-#reload(sys)
-#sys.setdefaultencoding('utf-8') 
-
-
-
-
 
 if __name__ == "__main__":
     app = application.make_app()

@@ -32,7 +32,19 @@
     <Compile Include="application.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="handler\basehandler.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="handler\index.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="handler\login.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="handler\logout.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="handler\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="url.py">
@@ -60,6 +72,7 @@
     <Content Include="static\images\wolf-logo.ico" />
     <Content Include="static\images\wolfkill-bg.jpg" />
     <Content Include="views\index.html" />
+    <Content Include="views\login.html" />
     <Content Include="static\libs\jquery\jquery-1.10.2.min.js" />
     <Content Include="static\libs\require\css.js" />
     <Content Include="static\libs\require\domReady.js" />
