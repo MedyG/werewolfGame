@@ -4,6 +4,7 @@
 /WerewolfGame/WerewolfGame/obj/Debug
 /WerewolfGame/WerewolfGame/__pycache__
 /WerewolfGame/WerewolfGame/handler/__pycache__
+*/__pycache__
 *.pyc
 *.pyc
 WerewolfGame/WerewolfGame/handler/__pycache__/index.cpython-35.pyc
